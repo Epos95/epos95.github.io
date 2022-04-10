@@ -10,3 +10,8 @@ run:
 
 clean:
 	@rm *.html
+
+publish:
+	@just build
+	@git commit -m "Published a new article!" -a
+	@git push
