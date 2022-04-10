@@ -16,3 +16,4 @@ publish:
 	@git add *.html
 	@git commit -m "Published a new article!" -a
 	@git push
+	@just clean
