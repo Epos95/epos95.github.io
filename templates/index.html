@@ -1,0 +1,19 @@
+<html>
+  <head>
+    {{data["css"]}}
+  </head>
+
+  <body>
+    <h1>
+      Epos' Blog (very WIP)
+    </h1>
+    <h3>
+      Written by: {{data["author"]}}
+    </h3>
+
+    These are the avalible articles:
+    {% for article in data["articles"] %}
+      <br><a href={{article['link']}}> {{article['name']}} </a></br>
+    {% endfor %}
+  </body>
+</html>
