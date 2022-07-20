@@ -4,16 +4,25 @@
   </head>
 
   <body>
-    <h1>
-      Epos' Blog (very WIP)
-    </h1>
-    <h3>
-      Written by: {{data["author"]}}
-    </h3>
+    {{data["header"]}}
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-    These are the avalible articles:
+    <u><h2> Articles </h2></u>
+    Some of my articles / projects:
     {% for article in data["articles"] %}
-      <br><a href={{article['link']}}> {{article['name']}} </a></br>
+      <br /><a href={{article['link']}}> {{article['name']}} </a>
     {% endfor %}
+
+    <br />
+    <br />
+    <u><h2> About me </h2></u>
+    <p> Wow lmao big progrgrammmar </p>
+
   </body>
 </html>
