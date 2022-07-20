@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="utils/blog.css"
+  </head>
+
+  <body>
+    
+<div class="header">
+    <h1>Epos Blog</h1>
+    <div id="path_thing"></div>
+    <script>
+    let path = window.location.pathname.split("/");
+
+    if (path[path.length - 1] == "index.html") {
+        document.getElementById("path_thing").innerHTML = "<p>Currently @ <span style='color: #d3869b'>~/</p>";
+    } else {
+        let thing = path[path.length - 1];
+        document.getElementById("path_thing").innerHTML = "<p>Currently @ <span style='color: #d3869b'>~/" + thing + "</p>";
+    }
+
+    </script>
+</div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <u><h2> Articles </h2></u>
+    Some of my articles / projects:
+    
+      <br /><a href=test_article.html> test article </a>
+    
+      <br /><a href=software_testing_maybe_isnt_a_silver_bullet.html> software testing maybe isnt a silver bullet </a>
+    
+      <br /><a href=how_our_tools_define_us_(or_why_tooling_matters).html> how our tools define us (or why tooling matters) </a>
+    
+
+    <br />
+    <br />
+    <u><h2> About me </h2></u>
+    <p> Wow lmao big progrgrammmar </p>
+
+  </body>
+</html>
