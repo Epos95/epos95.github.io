@@ -1,0 +1,53 @@
+* {
+    font-family: Fira Code;
+    color: #ebdbb2;
+}
+
+body {
+    background-color: #292929;
+}
+
+#table-of-contents {
+    box-shadow: 3px 5px 16px -1px rgba(0,0,0,0.85);
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 12vh;
+    padding: 5vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #504945;
+}
+
+.outline-2 {
+    box-shadow: 3px 3px 1px -1px rgba(0,0,0,0.45);
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2vh;
+    padding: 5vw;
+    padding-top: 1vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background-color: #504945;
+}
+
+#text-table-of-contents ul {
+  list-style-type: none;
+}
+
+a:link { text-decoration: none; color: #83a598; }
+a:visited { text-decoration: none; color: #83a598; }
+a:hover { color: #b16286; }
+
+.header {
+    background-color: #292929;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 17px;
+    position: fixed;
+    top: 0;
+    order: 0;
+}
+
+#path_thing {
+    font-size: 13px;
+}

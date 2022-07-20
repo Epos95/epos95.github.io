@@ -1,0 +1,16 @@
+
+<div class="header">
+    <h1>Epos Blog</h1>
+    <div id="path_thing"></div>
+    <script>
+    let path = window.location.pathname.split("/");
+
+    if (path[path.length - 1] == "index.html") {
+        document.getElementById("path_thing").innerHTML = "<p>Currently @ <span style='color: #d3869b'>~/</p>";
+    } else {
+        let thing = path[path.length - 1];
+        document.getElementById("path_thing").innerHTML = "<p>Currently @ <span style='color: #d3869b'>~/" + thing + "</p>";
+    }
+
+    </script>
+</div>
