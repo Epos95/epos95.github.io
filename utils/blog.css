@@ -8,7 +8,7 @@ body {
 }
 
 #table-of-contents {
-    box-shadow: 3px 5px 16px -1px rgba(0,0,0,0.85);
+    box-shadow: 3px 3px 1px -1px rgba(0,0,0,0.45);
     width: 85%;
     margin: 0 auto;
     margin-top: 12vh;
@@ -46,8 +46,18 @@ a:hover { color: #b16286; }
     position: fixed;
     top: 0;
     order: 0;
+    z-index: 999;
 }
 
 #path_thing {
     font-size: 13px;
+}
+
+.src {
+    background-color: #292929 !important;
+    font-size: 13px !important;
+}
+.example {
+    background-color: #292929 !important;
+    font-size: 13px !important;
 }
