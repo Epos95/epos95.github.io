@@ -61,3 +61,20 @@ a:hover { color: #b16286; }
     background-color: #292929 !important;
     font-size: 13px !important;
 }
+
+/* make header not cover the text when clicking on ToC */
+h2 {
+    scroll-margin-top: 150px;
+}
+h3 {
+    scroll-margin-top: 150px;
+}
+h4 {
+    scroll-margin-top: 150px;
+}
+h5 {
+    scroll-margin-top: 150px;
+}
+h6 {
+    scroll-margin-top: 150px;
+}
